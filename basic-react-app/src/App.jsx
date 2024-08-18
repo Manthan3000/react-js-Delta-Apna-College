@@ -3,6 +3,8 @@ import './App.css'
 import Title from "./Title.jsx";
 import Product from './Product.jsx'; 
 import ProductTab from './ProductTab.jsx';
+
+
 //Creating a Component
 function Description() {
   return <h3>I am a Student</h3>;
@@ -31,9 +33,10 @@ function Description() {
 function App() {
   return (
     <>
-      <h4>By Using Another Component Product Tab</h4>
-      <ProductTab />
-      
+      <h2>Blockbuster Deals Shop Now ....</h2>    
+      {/* <h4>By Using Another Component Product Tab</h4> */}
+      <ProductTab /> 
+   
    </>
   )
 }
