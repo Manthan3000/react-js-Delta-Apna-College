@@ -31,9 +31,6 @@ function Description() {
 function App() {
   return (
     <>
-      <Product />
-      <Product />
-      
       <h4>By Using Another Component Product Tab</h4>
       <ProductTab />
       
