@@ -3,7 +3,7 @@ import './App.css'
 import Title from "./Title.jsx";
 import Product from './Product.jsx'; 
 import ProductTab from './ProductTab.jsx';
-
+import Button from './Button.jsx';
 
 //Creating a Component
 function Description() {
@@ -36,8 +36,9 @@ function App() {
       <h2>Blockbuster Deals Shop Now ....</h2>    
       {/* <h4>By Using Another Component Product Tab</h4> */}
       <ProductTab /> 
-   
-   </>
+      <Button/>
+
+    </>
   )
 }
 //export
