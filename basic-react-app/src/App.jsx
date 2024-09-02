@@ -4,6 +4,7 @@ import Title from "./Title.jsx";
 import Product from './Product.jsx'; 
 import ProductTab from './ProductTab.jsx';
 import Button from './Button.jsx';
+import formsreact from './formsreact.jsx';
 
 //Creating a Component
 function Description() {
@@ -36,10 +37,12 @@ function App() {
       <h2>Blockbuster Deals Shop Now ....</h2>    
       {/* <h4>By Using Another Component Product Tab</h4> */}
       <ProductTab /> 
-      <Button/>
+      <Button />
+      
+      <formsreact/>
 
     </>
   )
 }
 //export
-export default App;
+export default App;   
